@@ -1389,6 +1389,7 @@ while row_count < int(sys.argv[3]): # stop variant
                         logger.debug("abs _power {0}".format(abspower[i])                        
                         verdict ='FAIL' 
                     i =i + 1
+                                     
                     
                 #range 4 value
                 if Meas[1][3] < float(max):
@@ -1398,6 +1399,7 @@ while row_count < int(sys.argv[3]): # stop variant
                     verdict = 'FAIL'
                                  
                 logger.debug(Meas)
+                logger.debug(132 * '-')
                 logger.debug(132 * '-')
                 logger.debug("Measurement Ranges for FSW spectrum analyzer")
                 logger.debug(132 * '-')
