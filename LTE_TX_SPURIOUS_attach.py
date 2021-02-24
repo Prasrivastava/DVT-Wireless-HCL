@@ -1763,6 +1763,7 @@ df.to_json (r'{0}\\ctf_fsw.json'.format(mydir_d), orient='split')
 # printing the csv contents in run log .py for all variants
 #logger.debug(df_j)
 logger.debug(132 * '_')
+logger.debug(132 * '_')
 logger.debug("PASSED")
 
 # THE END
